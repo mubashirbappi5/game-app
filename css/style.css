@@ -70,3 +70,80 @@ header{
     color: red;
 
 }
+/* banner */
+.banner{
+    max-width:1920px ;
+    margin: 0 auto;
+    background: url(../resources/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.banner-main-part{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.banner-left{
+    width: 50%;
+}
+.banner-left h3{
+    font-size: 2.75rem;
+    font-weight: 600;
+    color: #0B0223;
+  
+
+}
+.banner-left h1{
+    font-size: 5.95rem;
+    font-weight: 800;
+    background-image: linear-gradient(to bottom, #f948b2, #e746c3, #d049d3, #b150e3, #8758f1);
+    background-clip: text;
+    color: transparent;
+
+}
+.banner-left p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #534C64;
+    margin-top: 17px;
+   
+
+}
+.btn-primary-1, .btn-primary-2{
+    padding: 18px 40px 18px 40px;
+    border: none;
+    border-radius: 48px;
+    color: white;
+    margin-top: 41px;
+
+}
+.btn-primary-1{
+    background-color: #FF42A5;
+    margin-right: 20px;
+
+}
+.btn-primary-2{
+    background-color: #4EC5F7;
+
+}
+.icon{
+    margin-right:7px ;
+}
+#icon1{
+    color: #FF42A5;
+}
+#icon2{
+    color: #FF42A5;
+    margin-right: 17px;
+}
+
+.banner-right{
+    width: 50%;
+
+}
+.banner-right img{
+    width: 100%;
+}
+
+
