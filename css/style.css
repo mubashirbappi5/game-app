@@ -196,6 +196,72 @@ header{
     color: #534C64;
     margin-top: 24px;
 }
+/* online game section */
+ .online-games{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-top: 120px;
+
+ }
+ .online-game{
+    width: 80%;
+    margin: 0 auto;
+
+    
+ }
+ .online-game h1{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+ }
+ .online-game p{
+    font-size: 1rem;
+    text-align: center;
+ }
+ #funny-text{
+    background-image: linear-gradient(to bottom, #f948b2, #e746c3, #d049d3, #b150e3, #8758f1);
+    background-clip: text;
+    color: transparent;
+ }
+ .online-game-container{
+    display: flex;
+    gap: 16px;
+    margin-top: 48px;
+
+ }
+ 
+ .game-card-item{
+    width: 240px;
+    height: 300px;
+    border-radius: 16px;
+ }
+ .game-card > p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #534C64;
+    margin-top: 10px;
+
+ }
+ #game-card-1{
+    background-image: url(../resources/Rectangle\ 4.png);
+    
+    background-size: cover;
+ }
+ #game-card-2{
+    background-image: url(../resources/Rectangle\ 5.png);
+    background-size: cover;
+
+ }
+ #game-card-3{
+    background-image: url(../resources/Rectangle\ 6.png);
+    background-size: cover;
+
+ }
+ #game-card-4{
+    background-image: url(../resources/Rectangle\ 7.png);
+    background-size: cover;
+
+ }
 /* responsive device */
 
 @media screen and (max-width:576px) {
@@ -232,7 +298,20 @@ header{
         width: 100%;
         text-align: center;
     }
-    
+    .online-game-container{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .game-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .game-card-item{
+        width: 80%;
+    }
 }
 
 
