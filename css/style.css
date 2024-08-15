@@ -426,6 +426,37 @@ header{
     background-size: cover;
 
  }
+ /* game-gellary */
+ .game-gellary{
+    max-width: 1920px;
+    margin: 0 auto;
+ }
+ .game-gellary-part{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+ }
+ .game-images{
+    width: 194px;
+   height: 70px;
+   border-radius: 50px;
+  
+   display: flex;
+   align-items: center;
+   gap: 10px;
+ }
+ .game-images p{
+    font-weight: 600;
+ }
+ #adven-group{
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+ }
 /* responsive device */
 
 @media screen and (max-width:576px) {
@@ -522,6 +553,9 @@ header{
     .career-photo{
        display: none;
        
+    }
+    .game-gellary-part{
+        width: 100%;
     }
 }
 
