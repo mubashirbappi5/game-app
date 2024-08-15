@@ -356,6 +356,76 @@ header{
     background-image: url(../resources/Rectangle\ 78.png);
     background-size: cover;
  }
+ /* Careers-part */
+ .Careers-part{
+    max-width: 1920px;
+    margin: 100px auto;
+    
+    background-color: #FF42A5;
+   
+ }
+ .career{
+    width: 100%;
+  
+    display: flex;
+    gap: 25px;
+    margin: 0 auto;
+  
+ }
+ .career-text{
+    width: 50%;
+   
+    color: #FFFFFF;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ .career-text h3{
+    font-size: 3rem;
+    font-weight: 700;
+ }
+ .career-text p{
+    font-size: 1rem;
+    margin-top: 24px;
+ }
+ .list{
+    display:  flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-top: 32px;
+    
+ }
+ .list li{
+    margin-bottom: 5px;
+ }
+ .list-1{
+    list-style: none;
+ }
+ .list-2{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   list-style: none;
+ }
+ .see-btn{
+    padding: 15px 40px 15px 40px;
+    border-radius: 48px;
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FF42A5;
+    margin-top: 32px;
+
+ }
+ .career-photo{
+    width: 40%;
+    height: auto;
+    background-image: url(../resources/Group\ 65.png);
+    background-size: cover;
+
+ }
 /* responsive device */
 
 @media screen and (max-width:576px) {
@@ -438,6 +508,20 @@ header{
     }
     .photo-2{
         display: none;
+    }
+    .career{
+        height: auto;
+        flex-direction: column;
+      
+
+    }
+    .career-text{
+        width: 80%;
+        margin-left: 20px;
+    }
+    .career-photo{
+       display: none;
+       
     }
 }
 
