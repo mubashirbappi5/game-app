@@ -218,7 +218,7 @@ header{
     font-size: 1rem;
     text-align: center;
  }
- #funny-text{
+ .funny-text{
     background-image: linear-gradient(to bottom, #f948b2, #e746c3, #d049d3, #b150e3, #8758f1);
     background-clip: text;
     color: transparent;
@@ -261,6 +261,52 @@ header{
     background-image: url(../resources/Rectangle\ 7.png);
     background-size: cover;
 
+ }
+ /* game-features */
+ .game-features{
+    max-width: 1920px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 100px;
+ }
+ .features{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    gap: 200px;
+
+ }
+ .features-text{
+    width: 40%;
+    text-align: right;
+    margin-top: 100px;
+ }
+ .features-photo{
+    width: 40%;
+    height: 500px;
+    border: 1px solid red;
+    background-image: url(../resources/Rectangle\ 55.png);
+    background-size: cover;
+ }
+ .features-text h2{
+    font-size: 3rem;
+    font-weight: 700;
+ }
+ .features-text p{
+    font-size: 1rem;
+ }
+ .photo-sub{
+    position: absolute;
+    width: 290px;
+    height: 320px;
+    left: 590px;
+   top: 355.75px;
+   background-image: url(../resources/Rectangle\ 66.png);
+   background-position: center;
+   background-size: cover;
  }
 /* responsive device */
 
@@ -311,6 +357,21 @@ header{
     }
     .game-card-item{
         width: 80%;
+    }
+    .features{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .features-text{
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .features-photo{
+        width: 100%;
+    }
+    .photo-sub{
+        display: none;
     }
 }
 
