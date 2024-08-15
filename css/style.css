@@ -287,7 +287,6 @@ header{
  .features-photo{
     width: 40%;
     height: 500px;
-    border: 1px solid red;
     background-image: url(../resources/Rectangle\ 55.png);
     background-size: cover;
  }
@@ -297,6 +296,8 @@ header{
  }
  .features-text p{
     font-size: 1rem;
+    color: #534C64;
+    margin-top: 14px;
  }
  .photo-sub{
     position: absolute;
@@ -307,6 +308,53 @@ header{
    background-image: url(../resources/Rectangle\ 66.png);
    background-position: center;
    background-size: cover;
+   border-radius: 8px;
+ }
+ /* play-games */
+ .play-games{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 100px 0px;
+ }
+ .play-game{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+   gap: 250px;
+ }
+ .play-game-photo{
+    position: relative;
+    width: 45%;
+    height: 500px;
+    border-radius: 16px;
+    background-image: url(../resources/Rectangle\ 67.png);
+    background-size: cover;
+    background-position: center;
+ }
+ .play-game-text{
+    width: 45%;
+  
+ }
+ .play-game-text h2{
+    font-size: 2rem;
+    font-weight: 700;
+ }
+ .play-game-text p{
+    font-size: 1rem;
+    color: #534C64;
+    margin-top: 14px;
+ }
+ .photo-2{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 300px;
+    top: 300px;
+    border-radius: 8px;
+    background-image: url(../resources/Rectangle\ 78.png);
+    background-size: cover;
  }
 /* responsive device */
 
@@ -371,6 +419,24 @@ header{
         width: 100%;
     }
     .photo-sub{
+        display: none;
+    }
+    .play-game{
+        flex-direction: column-reverse;
+        gap: 50px;
+        
+    }
+    .play-game-text{
+        width: 80%;
+        text-align: center;
+    }
+    .play-game-text h2{
+        font-size: 3rem;
+    }
+    .play-game-photo{
+        width: 100%;
+    }
+    .photo-2{
         display: none;
     }
 }
