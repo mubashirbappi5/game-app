@@ -430,6 +430,7 @@ header{
  .game-gellary{
     max-width: 1920px;
     margin: 0 auto;
+   
  }
  .game-gellary-part{
     width: 80%;
@@ -440,6 +441,7 @@ header{
     gap: 10px;
     align-items: center;
     justify-content: center;
+    
  }
  .game-images{
     width: 194px;
@@ -456,6 +458,52 @@ header{
  #adven-group{
     border: 1px solid #FF42A5;
     color: #FF42A5;
+ }
+ /* footer */
+ .footer{
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0B0223;
+    padding: 100px 0px;
+ }
+ .my-account{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 64px;
+    flex-wrap: wrap;
+ }
+ .social-icon{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    flex-wrap: wrap;
+ }
+ .tream{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    color:#FFFFFF99;
+    font-size: .80rem;
+    margin-top: 60px;
+    flex-wrap: wrap;
+ }
+ .copyright{
+    color: #FFFFFF99;
+    font-size: .75rem;
+    margin-top: 10px;
+ }
+ .footer-head h1{
+  color: #FFFFFF;
  }
 /* responsive device */
 
